@@ -1,0 +1,204 @@
+ws-benchmark -c 1000 -n 10000 ws://localhost:8080
+ws-benchmark success.
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Concurrency Level:      1000
+Time taken for tests:   1.015 seconds
+Complete requests:      10000
+Failed requests:        0
+Requests per second:    9855.93 [#/sec] (mean)
+Time per request:       101.462 [ms] (mean)
+Time per request:       0.101 [ms] (mean, across all concurrent requests)
+Average time:           0.045 [ms]
+Min time:               0.013 [ms]
+Max time:               2.340 [ms]
+
+Percentage of the requests served within a certain time (ms)
+  50%      0.036
+  66%      0.045
+  75%      0.051
+  80%      0.056
+  90%      0.069
+  95%      0.084
+  98%      0.111
+  99%      0.148
+ 100%      2.340
+
+ws-benchmark -c 1000 -n 100000 ws://localhost:8080
+ws-benchmark success.
+Completed 10000 requests
+Completed 20000 requests
+Completed 30000 requests
+Completed 40000 requests
+Completed 50000 requests
+Completed 60000 requests
+Completed 70000 requests
+Completed 80000 requests
+Completed 90000 requests
+Completed 100000 requests
+Concurrency Level:      1000
+Time taken for tests:   3.844 seconds
+Complete requests:      100000
+Failed requests:        0
+Requests per second:    26012.17 [#/sec] (mean)
+Time per request:       38.444 [ms] (mean)
+Time per request:       0.038 [ms] (mean, across all concurrent requests)
+Average time:           0.030 [ms]
+Min time:               0.013 [ms]
+Max time:               6.000 [ms]
+
+Percentage of the requests served within a certain time (ms)
+  50%      0.025
+  66%      0.027
+  75%      0.030
+  80%      0.033
+  90%      0.044
+  95%      0.054
+  98%      0.066
+  99%      0.077
+ 100%      6.000
+
+ws-benchmark -c 1000 -n 200000 ws://localhost:8080
+ws-benchmark success.
+Completed 20000 requests
+Completed 40000 requests
+Completed 60000 requests
+Completed 80000 requests
+Completed 100000 requests
+Completed 120000 requests
+Completed 140000 requests
+Completed 160000 requests
+Completed 180000 requests
+Completed 200000 requests
+Concurrency Level:      1000
+Time taken for tests:   6.810 seconds
+Complete requests:      200000
+Failed requests:        0
+Requests per second:    29369.24 [#/sec] (mean)
+Time per request:       34.049 [ms] (mean)
+Time per request:       0.034 [ms] (mean, across all concurrent requests)
+Average time:           0.029 [ms]
+Min time:               0.012 [ms]
+Max time:               3.884 [ms]
+
+Percentage of the requests served within a certain time (ms)
+  50%      0.024
+  66%      0.029
+  75%      0.033
+  80%      0.036
+  90%      0.044
+  95%      0.052
+  98%      0.063
+  99%      0.074
+ 100%      3.884
+
+ws-benchmark -c 1000 -n 300000 ws://localhost:8080
+ws-benchmark success.
+Completed 30000 requests
+Completed 60000 requests
+Completed 90000 requests
+Completed 120000 requests
+Completed 150000 requests
+Completed 180000 requests
+Completed 210000 requests
+Completed 240000 requests
+Completed 270000 requests
+Completed 300000 requests
+Concurrency Level:      1000
+Time taken for tests:   9.839 seconds
+Complete requests:      300000
+Failed requests:        0
+Requests per second:    30489.73 [#/sec] (mean)
+Time per request:       32.798 [ms] (mean)
+Time per request:       0.033 [ms] (mean, across all concurrent requests)
+Average time:           0.029 [ms]
+Min time:               0.012 [ms]
+Max time:               8.226 [ms]
+
+Percentage of the requests served within a certain time (ms)
+  50%      0.024
+  66%      0.028
+  75%      0.033
+  80%      0.036
+  90%      0.044
+  95%      0.051
+  98%      0.061
+  99%      0.069
+ 100%      8.226
+
+
+ws-benchmark -c 1000 -n 400000 ws://localhost:8080
+ws-benchmark success.
+Completed 40000 requests
+Completed 80000 requests
+Completed 120000 requests
+Completed 160000 requests
+Completed 200000 requests
+Completed 240000 requests
+Completed 280000 requests
+Completed 320000 requests
+Completed 360000 requests
+Completed 400000 requests
+Concurrency Level:      1000
+Time taken for tests:   13.197 seconds
+Complete requests:      400000
+Failed requests:        0
+Requests per second:    30309.56 [#/sec] (mean)
+Time per request:       32.993 [ms] (mean)
+Time per request:       0.033 [ms] (mean, across all concurrent requests)
+Average time:           0.030 [ms]
+Min time:               0.012 [ms]
+Max time:               2.229 [ms]
+
+Percentage of the requests served within a certain time (ms)
+  50%      0.024
+  66%      0.030
+  75%      0.034
+  80%      0.037
+  90%      0.045
+  95%      0.052
+  98%      0.062
+  99%      0.070
+ 100%      2.229
+
+ws-benchmark -c 1000 -n 500000 ws://localhost:8080
+ws-benchmark success.
+Completed 50000 requests
+Completed 100000 requests
+Completed 150000 requests
+Completed 200000 requests
+Completed 250000 requests
+Completed 300000 requests
+Completed 350000 requests
+Completed 400000 requests
+Completed 450000 requests
+Completed 500000 requests
+Concurrency Level:      1000
+Time taken for tests:   15.799 seconds
+Complete requests:      500000
+Failed requests:        0
+Requests per second:    31647.15 [#/sec] (mean)
+Time per request:       31.598 [ms] (mean)
+Time per request:       0.032 [ms] (mean, across all concurrent requests)
+Average time:           0.028 [ms]
+Min time:               0.012 [ms]
+Max time:               9.873 [ms]
+
+Percentage of the requests served within a certain time (ms)
+  50%      0.024
+  66%      0.025
+  75%      0.028
+  80%      0.032
+  90%      0.041
+  95%      0.052
+  98%      0.066
+  99%      0.079
+ 100%      9.873
