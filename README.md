@@ -1,4 +1,4 @@
-# Benchmark NodeJs x GoLang
+# Benchmark Websocket - NodeJs x GoLang
 
 ## Relatório dos resultados
 
@@ -15,5 +15,7 @@
 ![Relatório](report/total-time-requests.png)
 
 ## Log do benchmark
-[Node](node-js/results.txt)
-[Golang](golang/results.txt)
+
+* [Node](node-js/results.txt)
+
+* [Golang](golang/results.txt)
